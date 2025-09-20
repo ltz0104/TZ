@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="泰臻">
+    <meta name="keywords" content="泰臻介绍的第一个游戏">
+    <link rel="stylesheet" href="style.css">
+    <title>Dying Light</title>
+    <link rel="icon" href="images/favicon2.png">
+</head>
+<body>
+    <header>
+    <button class="PS">&#9776;</button>
+    <nav>
+    <div class="logo">
+	    <a href="https://dyinglightgame.com/" title="Dying Light - Official Website">
+        <img src="https://repo.techland.gg/img/logos/dl_light_small_en.png" alt="Dying Light - Official Website">
+        </a>
+	</div>
+    <ul>
+        <a href="游戏展示.html">返回游戏列表</a>
+    </ul>
+    </nav>
+    </header>
+    <section class="PS7">
+    <video autoplay muted plays-inline class="background-clip">
+        <source src="images/DL.mp4" type="video/mp4">
+    </video>
+    <button id="sound-toggle" class="sound-button" aria-label="切换声音">🔇</button>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const bgVideo = document.querySelector('.background-clip');
+            const soundToggle = document.getElementById('sound-toggle');
+            
+            bgVideo.addEventListener('ended', function() {
+                this.loop = false; 
+                this.currentTime = this.duration; 
+                this.pause(); 
+            });
+            soundToggle.addEventListener('click', function() {
+                if (bgVideo.muted) {
+                    bgVideo.muted = false;
+                    soundToggle.textContent = '🔊';
+                    bgVideo.play(); // 确保视频播放
+                } else {
+                    bgVideo.muted = true;
+                    soundToggle.textContent = '🔇';
+                }
+            });
+        });
+    </script>
+    <p></p>
+    <p></p>
+    <p></p>
+    <p></p>
+    <p></p>
+    <p></p>
+    <p></p>
+    <p></p>
+    <p></p>
+    <p>一款以跑酷穿梭丧尸围城、昼夜反转拉扯生存神经、近战砍杀迸发暴力美学的开放世界动作神作。</p>
+    <p><a href="https://dyinglightgame.com/">了解更多</a></p>
+    </section>
+    
+    <section class="PS8">
+    <img src="images/DL1.png" alt="我游玩的时常">
+    <p>&nbsp;•百三十余时辰浸，<br>&nbsp;&nbsp;&nbsp;&nbsp;•此游真教我沉迷。<br>&nbsp;•跑酷斩尸皆尽兴，<br>&nbsp;&nbsp;&nbsp;&nbsp;•每刻都如醉梦里。</p>
+    </section>
+    
+    <section class="PS9">
+    <img src="images/DL2.png" alt="游戏图片">
+    <div class="PS10">
+    <h2>《消逝的光芒》</h2>
+    <p>
+    一款第一人称动作生存游戏，背景设定在一个广阔的开放世界中。在被神秘瘟疫摧毁的城市中漫游，搜寻物资并制造武器，以帮助击败瘟疫所制造的成群结队的嗜血敌人。夜晚，要小心感染者，它们的力量会不断增强，甚至更致命的夜间捕食者会离开巢穴捕食猎物。
+    <br>
+    夜晚，要小心感染者，它们的力量会不断增强，甚至更致命的夜间捕食者会离开巢穴捕食猎物。其跑酷机制灵动流畅，让玩家在楼宇间飞跃如飞雀；武器系统丰富多样，从简易棍棒到精巧改造兵器，为战斗提供多元选择，沉浸式体验拉满，叫人一玩便难以停手。
+    </p>
+    </div>
+    </section>
+    <section class="PS11">
+        <div>
+            <video src="images/DL3.mp4" controls alt="僵尸宝宝">
+        </div>
+        <div>
+            <h3>Screamer（尖叫者）</h3>
+            <p>
+            •它不会直接攻击玩家，但一旦靠近便会发出刺耳的尖叫，导致玩家短暂眩晕，同时吸引周围的大量感染者前来围攻，因此往往比普通僵尸更具威胁，通常需要玩家迅速而安静地解决。
+            <br>
+            •外形：它是一个被感染的儿童，看上去像僵尸化的婴儿。
+            <br>
+            •特点：不会直接攻击玩家，但一旦靠近，它会发出极其刺耳、恐怖的尖叫声。
+            <br>
+            •效果：这种尖叫会让玩家暂时眩晕，并且会引来大量附近的感染者蜂拥而至。
+            <br>
+            •战术：最佳做法是尽快悄悄解决它（比如用飞镖或消音武器），避免它发出尖叫。
+            <br>
+            *个人认为比较恶心的僵尸*
+            </p>
+        </div>
+    </section>
+    <section class="PS12">
+        <div>
+            <video src="images/DL4.mp4" controls alt="小彩蛋1">
+        </div>
+        <div>
+            <h3>马里奥世界（小彩蛋）</h3>
+            <p>
+            •在老城区（Old Town）可以找到一根绿色水管，进入后就会进入一个特殊关卡，整个场景仿照《超级马里奥兄弟》的 1-1 关卡，用砖块、平台和金币方块还原了经典元素，只不过全部都是 3D 风格。完成这段关卡后，玩家还能获得一顶 马里奥风格的红色帽子，作为独特奖励。这是游戏里最著名、也最受玩家喜爱的彩蛋之一。
+            </p>
+        </div>
+    </section>
+    <section class="PS13">
+        <div>
+            <video src="images/DL5.mp4" controls alt="小彩蛋2">
+        </div>
+        <div>
+            <h3>玩具总动员3—熊熊（小彩蛋）</h3>
+            <p>
+            •点击它他就说你说 : I LOVE YOU，反正你就不停地一直点他就对了，我第一次来一直点很怕他会突然改说：Behind you ，那一定很吓人，因为这房间很安静，可是很好玩所以在充满害怕的同时我还是一直逼他说：I LOVE YOU，结果他突然就生气了而且他开始很不爽，但是他突然生气让我更想闹他了，所以就点吧!!!然后他又更火大了。接下来我在考虑又不要再点下去，我好怕他会突然扑向我。可是手就是不听使唤的这么贱，结果它就爆了。
+            </p>
+        </div>
+    </section>
+    <section class="PS14">
+        <div>
+            <iframe src="https://www.youtube.com/embed/OW0UW8UgTeA?si=0I9QNcl9dDk_Kiga" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        <div>
+            <h3>游戏内容介绍</h3>
+            <p>
+                此视频介绍了《消逝的光芒》的游戏内容，包括游戏的背景、游戏的玩法、游戏的敌人、游戏的奖励等。
+            </p>
+        </div>
+    </section>
+    <footer>
+        <p>Copyright © 2025 Dying Light All Rights Reserved.</p>
+    </footer>
+</body>
+</html>

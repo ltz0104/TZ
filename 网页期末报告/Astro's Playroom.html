@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="泰臻">
+    <meta name="keywords" content="泰臻介绍的第二个游戏">
+    <link rel="stylesheet" href="style.css">
+    <title>Astro's Playroom</title>
+    <link rel="icon" href="images/favicon3.png">
+</head>
+<body>
+    <header>
+    <button class="PS">&#9776;</button>
+    <nav>
+    <div class="logo">
+        <a href="https://www.teamasobi.com/jp/games/astros-playroom" title="Astro's Playroom - Official Website">
+        <img src="https://cdn2.steamgriddb.com/logo/f011764aa39e28db078bf2d44bd5c81e.png" alt="Astro's Playroom - Official Website">
+        </a>
+    </div>
+    <ul>
+        <a href="游戏展示.html">返回游戏列表</a>
+    </ul>
+    </nav>  
+    </header>   
+     <section class="PS15">
+    <video autoplay muted plays-inline class="background-clip">
+        <source src="images/AP3.mp4" type="video/mp4">
+    </video>
+    <button id="sound-toggle" class="sound-button" aria-label="切换声音">🔇</button>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const bgVideo = document.querySelector('.background-clip');
+            const soundToggle = document.getElementById('sound-toggle');
+            
+            bgVideo.addEventListener('ended', function() {
+                this.loop = false; 
+                this.currentTime = this.duration; 
+                this.pause(); 
+            });
+            soundToggle.addEventListener('click', function() {
+                if (bgVideo.muted) {
+                    bgVideo.muted = false;
+                    soundToggle.textContent = '🔊';
+                    bgVideo.play(); // 确保视频播放
+                } else {
+                    bgVideo.muted = true;
+                    soundToggle.textContent = '🔇';
+                }
+            });
+        });
+    </script>
+    <p></p>
+    <p></p>
+    <p></p>
+    <p></p>
+    <p></p>
+    <p></p>
+    <p></p>
+    <p></p>
+    <p></p>
+    <p>一款围绕宇宙机器人，通过跑酷穿梭危机场景、在昼夜反转中挑战生存极限、以近战交锋展现独特暴力美学的开放世界动作精品。</p>
+    <p><a href="https://www.playstation.com/en-us/games/astros-playroom/">了解更多</a></p>
+    </section>
+    
+    <section class="PS16">
+    <p>" 角色的特技，光影的炸裂，每一次都是震撼的视觉狂欢 "</p>
+    </section>
+    
+    <section class="PS17">
+    <img src="images/AP.png" alt="游戏图片">
+    
+    <div class="PS18">
+    <h2>《ASTRO's PLAYROOM》</h2>
+    <p>
+    由原版《THE PLAYROOM》和广受好评的《ASTRO BOT Rescue Mission》的制作团队倾力打造,为您带来一款预装于 PS5™ 主机的全新平台跳跃游戏。掌控 ASTRO,通过 DualSense™ 无线控制器感受世界:凭借沉浸式触觉反馈技术,您迈出的每一步、每一次跳跃以及击败的每一个敌人都将以全新的方式呈现。
+    <br>
+    在旅途中,使用全新强化道具,充分发挥动态自适应扳机键、运动传感器、触控板和集成扬声器的潜力,带来全新的游戏体验。不妨花时间探索众多隐藏的 PlayStation® 历史,并收集永恒的文物,将其展示在您心爱的 PlayStation Labo 中!
+    </p>
+    </div>
+    </section>
+    <section class="PS19">
+        <div>
+            <video src="images/AP1.mp4" controls alt="重温经典，迎接未来——PS5 带你进入新世代！">
+        </div>
+        <div>
+            <h3>重温经典，迎接未来——PS5 带你进入新世代！</h3>
+            <p>
+            视频带我们踏上一段回顾与探索的旅程。开头，PlayStation历代经典主机与外设一一闪过：从初代PS1到最新的PS5，从经典手柄到VR 装置，仿佛在重温PlayStation的发展史。
+            <br>
+            随着画面推进，镜头转向PS5自带的冒险游戏—《Astro’s Playroom》，它以轻松有趣的方式展示了主机的性能与特色玩法。最后，视频出现“为您带来 DualSense 无线控制器！”的字样，点出了核心亮点——PS5 的创新手柄，为玩家带来前所未有的沉浸式次世代体验。
+            </p>
+        </div>
+    </section>
+    <section class="PS20">
+        <div>
+            <video src="images/AP2.mp4" controls alt="PlayStation 技术探索与精准操作实践">
+        </div>
+        <div>
+            <h3>PlayStation 技术探索与精准操作实践</h3>
+            <p>
+            •这是《ASTRO's PLAYROOM》里的 “PLAYSTATION 实验室” 场景界面。
+            每到一个模块，都像开启新惊喜，能看到和 PlayStation 早期相关的小彩蛋。接着探索绿色线路区域，这里充满生机，有植物、复古装置，仿佛在回顾 PlayStation 伴随游戏界成长的历程。
+            让我感受到 PlayStation 在技术前沿的探索。一路探索，收集元素，看着右侧设备图标和收集进度不断变化，特别有成就感，仿佛跟着 PlayStation 一起，从过去走到现在，期待着未来更多的惊喜。
+            该场景围绕 PlayStation 相关元素展开，玩家可在此探索、互动，感受与 PlayStation 设备和品牌文化相关的趣味内容，体验独特的游戏探索乐趣。
+            </p>
+        </div>
+    </section>
+    <section class="PS21">
+        <h3>•游戏精彩画面集</h3>
+        <div class="image-gallery">
+            <div class="gallery-container">
+                <div class="gallery-item active">
+                    <video src="images/AP5.mp4" controls alt="游戏视频1"></video>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/AP4.png" alt="游戏画面2">
+                </div>
+                <div class="gallery-item">
+                    <video src="images/AP6.mp4" controls alt="游戏视频3"></video>
+                </div>
+                <div class="gallery-item">
+                    <video src="images/AP3.mp4" controls alt="游戏视频4"></video>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/AP7.png" alt="游戏画面5">
+                </div>
+                <div class="gallery-item">
+                    <img src="images/AP8.png" alt="游戏画面6">
+                </div>
+                <div class="gallery-item">
+                    <img src="images/AP9.png" alt="游戏画面7">
+                </div>
+            </div>
+            <div class="gallery-controls">
+                <button class="gallery-btn prev-btn">&lt;</button>
+                <button class="gallery-btn next-btn">&gt;</button>
+            </div>
+            <div class="gallery-dots">
+                <span class="dot active" data-index="0"></span>
+                <span class="dot" data-index="1"></span>
+                <span class="dot" data-index="2"></span>
+                <span class="dot" data-index="3"></span>
+                <span class="dot" data-index="4"></span>
+                <span class="dot" data-index="5"></span>
+                <span class="dot" data-index="6"></span>
+            </div>
+        </div>
+    </section>
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const galleryItems = document.querySelectorAll('.gallery-item');
+        const prevBtn = document.querySelector('.gallery-controls .prev-btn');
+        const nextBtn = document.querySelector('.gallery-controls .next-btn');
+        const dots = document.querySelectorAll('.gallery-dots .dot');
+        
+        let currentIndex = 0;
+        
+        function showImage(index) {
+            // 隐藏所有图片
+            galleryItems.forEach(item => {
+                item.classList.remove('active');
+            });
+            
+            // 更新所有点的状态
+            dots.forEach(dot => {
+                dot.classList.remove('active');
+            });
+            
+            // 显示当前图片和点
+            galleryItems[index].classList.add('active');
+            dots[index].classList.add('active');
+            
+            currentIndex = index;
+        }
+        
+        // 下一张图片
+        function nextImage() {
+            let nextIndex = (currentIndex + 1) % galleryItems.length;
+            showImage(nextIndex);
+        }
+        
+        // 上一张图片
+        function prevImage() {
+            let prevIndex = (currentIndex - 1 + galleryItems.length) % galleryItems.length;
+            showImage(prevIndex);
+        }
+        
+        // 添加按钮事件
+        nextBtn.addEventListener('click', nextImage);
+        prevBtn.addEventListener('click', prevImage);
+        
+        // 添加点击点切换图片
+        dots.forEach(dot => {
+            dot.addEventListener('click', function() {
+                let index = parseInt(this.getAttribute('data-index'));
+                showImage(index);
+            });
+        });
+        
+        // 添加键盘事件
+        document.addEventListener('keydown', function(e) {
+            if (e.key === 'ArrowRight') {
+                nextImage();
+            } else if (e.key === 'ArrowLeft') {
+                prevImage();
+            }
+        });
+    });
+    </script>
+    <section class="PS22">
+        <div>
+            <iframe src="https://www.youtube.com/embed/33zqCAJ-qrE?si=Wa8Hc2ONAn3aKw-W" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        <div>
+            <h3>游戏预告片</h3>
+            <p>
+                这款预装在 PS5 上的趣味平台游戏，Astro 和他的团队将带您踏上 PS5 的神奇之旅。探索四个世界，每个世界都基于 PS5 的主机组件。每个区域都展示了创新的游戏玩法，并充分利用了 PS5 DualSense 的新功能。
+            </p>
+        </div>
+    </section>
+    <footer>
+        <p>Copyright © 2025 ASTRO's PLAYROOM All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
